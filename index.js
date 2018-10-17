@@ -2,7 +2,9 @@ var express = require('express');
 var app = express();
 var socket = require('socket.io');
 
-var server = app.listen(80, () => {
+const port = process.env.PORT || 3000;
+
+var server = app.listen(port, () => {
   console.log("listenig");
 });
 
