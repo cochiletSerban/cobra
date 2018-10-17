@@ -1,20 +1,12 @@
-var express = require('express');
-var app = express();
-var socket = require('socket.io');
-
 const port = process.env.PORT || 3000;
-
-var server = app.listen(port, () => {
-  console.log("listenig");
-});
+const io = require("socket.io");
 
 
-//satic server
-app.use(express.static('public'));
+const server = io.listen(port);
 
 //socket
-var io = socket(server);
-io.on('connection', (socket) => {
+
+server.on('connection', (socket) => {
 
   console.log("connection made on socket:" ,socket.id);
 
