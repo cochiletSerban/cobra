@@ -1,5 +1,6 @@
 // make socket connection
-var socket = io.connect('https://cobras.herokuapp.com/');
+var socket = io.connect('https://cobras.herokuapp.com/')
+
 
 $(document).ready(() => {
   //event on send

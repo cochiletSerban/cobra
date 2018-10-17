@@ -11,7 +11,7 @@ server.on('connection', (socket) => {
   console.log("connection made on socket:" ,socket.id);
 
   socket.on('chatMsg',(data) =>{
-    io.sockets.emit('chatMsg',data);
+    server.sockets.emit('chatMsg',data);
   });
 
   socket.on('typing' ,(data) => {
