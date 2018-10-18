@@ -6,7 +6,7 @@ const server = io.listen(port)
 server.on('connection', (socket) => {
   console.log('connection made on socket:', socket.id)
 
-  socket.on('chatMsg', (data) =>{
+  socket.on('chatMsg', (data) => {
     server.sockets.emit('chatMsg', data)
   })
 
