@@ -606,14 +606,6 @@ module.exports = {
       nationality: 'Czech Republic',
       team: '',
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/6235.png'
-    },
-    { // card object structure for player card
-      type: cardType.func,
-      name: '',
-      active: '', // leave blank
-      nationality: '',
-      team: '',
-      picture: ''
     }
   ]
 }
