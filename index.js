@@ -9,7 +9,7 @@ function isLobbyToFull () {
 }
 
 function isLobbyReady () {
-  return server.engine.clientsCount == 2
+  return server.engine.clientsCount === 2
 }
 
 function kickExtraConnections (socket) {

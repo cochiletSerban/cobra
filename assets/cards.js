@@ -562,50 +562,50 @@ module.exports = {
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/212190.png'
     },
-    { // card object structure for player card
-      type: cardType.coach,
-      name: 'Maradona',
-      passive: '', // leave blank
-      active: '', // leave blank
-      nationality: 'Argentina',
-      team: '',
-      picture: 'https://cdn.futbin.com/content/fifa19/img/players/190042.png'
-    },
-    { // card object structure for player card
-      type: cardType.coach,
-      name: 'van Basten',
-      passive: '', // leave blank
-      active: '', // leave blank
-      nationality: 'Holland',
-      team: '',
-      picture: 'https://cdn.futbin.com/content/fifa19/img/players/192181.png'
-    },
-    { // card object structure for player card
-      type: cardType.coach,
-      name: 'Blanc',
-      passive: '', // leave blank
-      active: '', // leave blank
-      nationality: 'France',
-      team: '',
-      picture: 'https://cdn.futbin.com/content/fifa19/img/players/238443.png'
-    },
-    { // card object structure for player card
-      type: cardType.coach,
-      name: 'Shevchenko',
-      passive: '', // leave blank
-      active: '', // leave blank
-      nationality: 'Ucraina',
-      team: '',
-      picture: 'https://cdn.futbin.com/content/fifa19/img/players/13128.png'
-    },
-    { // card object structure for player card
-      type: cardType.coach,
-      name: 'Nedved',
-      passive: '', // leave blank
-      active: '', // leave blank
-      nationality: 'Czech Republic',
-      team: '',
-      picture: 'https://cdn.futbin.com/content/fifa19/img/players/6235.png'
-    }
+    // { // card object structure for player card
+    //   type: cardType.coach,
+    //   name: 'Maradona',
+    //   passive: '', // leave blank
+    //   active: '', // leave blank
+    //   nationality: 'Argentina',
+    //   team: '',
+    //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/190042.png'
+    // },
+    // { // card object structure for player card
+    //   type: cardType.coach,
+    //   name: 'van Basten',
+    //   passive: '', // leave blank
+    //   active: '', // leave blank
+    //   nationality: 'Holland',
+    //   team: '',
+    //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/192181.png'
+    // },
+    // { // card object structure for player card
+    //   type: cardType.coach,
+    //   name: 'Blanc',
+    //   passive: '', // leave blank
+    //   active: '', // leave blank
+    //   nationality: 'France',
+    //   team: '',
+    //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/238443.png'
+    // },
+    // { // card object structure for player card
+    //   type: cardType.coach,
+    //   name: 'Shevchenko',
+    //   passive: '', // leave blank
+    //   active: '', // leave blank
+    //   nationality: 'Ucraina',
+    //   team: '',
+    //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/13128.png'
+    // },
+    // { // card object structure for player card
+    //   type: cardType.coach,
+    //   name: 'Nedved',
+    //   passive: '', // leave blank
+    //   active: '', // leave blank
+    //   nationality: 'Czech Republic',
+    //   team: '',
+    //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/6235.png'
+    // }
   ]
 }
