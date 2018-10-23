@@ -1,4 +1,5 @@
 const io = require('socket.io')
+const cardList = require('./assets/cards')
 
 const port = process.env.PORT || 3000
 const server = io.listen(port)
