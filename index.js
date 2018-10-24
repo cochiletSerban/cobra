@@ -3,6 +3,8 @@ const cardList = require('./assets/cards')
 
 const port = process.env.PORT || 3000
 const server = io.listen(port)
+let player1 = ''
+let player2 = ''
 
 function isLobbyToFull () {
   return server.engine.clientsCount > 2
@@ -24,16 +26,18 @@ function moveToSelectCards (socket) {
 }
 
 server.on('connection', (socket) => {
-  console.log('connection made on socket:', socket.id)
-  console.log(server.engine.clientsCount)
   kickExtraConnections(socket)
+  console.log('connection severed on socket:', socket.id)
   if (isLobbyReady()) {
     moveToSelectCards(socket)
   }
 
   socket.on('disconnect', (socket) => {
     console.log('connection severed on socket:', socket.id)
-    console.log(server.engine.clientsCount)
   })
 
+  socket.on('cardSelect', (socket) => {
+    //io.to(player1).emit('event', 'data')
+    
+  })
 })

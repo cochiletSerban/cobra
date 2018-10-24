@@ -227,7 +227,7 @@ module.exports = {
       name: 'Pjanic',
       atack: 7,
       defence: 7,
-      nationality: 'Bosnia and Herzegovina',
+      nationality: 'Bosnia',
       team: 'Juventus',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/180206.png'
@@ -277,7 +277,7 @@ module.exports = {
       name: 'Cech',
       atack: 1,
       defence: 9,
-      nationality: 'Czech Republic',
+      nationality: 'Czech R',
       team: 'Arsenal',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/p50380588.png'
