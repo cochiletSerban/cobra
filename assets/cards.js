@@ -606,6 +606,57 @@ module.exports = {
     //   nationality: 'Czech Republic',
     //   team: '',
     //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/6235.png'
+    // }{
+    //   type: cardType.func,
+    //   name: '+1 for all DEF cards',
+    //   id: 1,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
+    // }
+    {
+    //   type: cardType.func,
+    //   name: '+1 for all ATK cards',
+    //   id: 2,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
+    // }{
+    //   type: cardType.func,
+    //   name: '+2 for all DEF cards',
+    //   id: 3,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
+    // }{
+    //   type: cardType.func,
+    //   name: '+2 for all ATK cards',
+    //   id: 4,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
+    // }{
+    //   type: cardType.func,
+    //   name: '+3 for random ATK card',
+    //   id: 5,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
+    // }{
+    //   type: cardType.func,
+    //   name: '+3 for random DEF card',
+    //   id: 6,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
+    // }{
+    //   type: cardType.func,
+    //   name: 'Remove ATK points of an enemy card',
+    //   id: 7,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
+    // }{
+    //   type: cardType.func,
+    //   name: 'Remove DEF points of an enemy card',
+    //   id: 8,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
+    // }{
+    //   type: cardType.func,
+    //   name: 'Enemy lose one random card',
+    //   id: 9,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
+    // }{
+    //   type: cardType.func,
+    //   name: 'Steal a card from enemy',
+    //   id: 10,
+    //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
     // }
   ]
 }
