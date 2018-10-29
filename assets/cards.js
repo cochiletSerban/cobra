@@ -561,7 +561,7 @@ module.exports = {
       team: 'Bayern München',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/212190.png'
-    },
+    }
     // { // card object structure for player card
     //   type: cardType.coach,
     //   name: 'Maradona',
@@ -612,7 +612,7 @@ module.exports = {
     //   id: 1,
     //   picture: 'http://chittagongit.com//images/football-icon-png/football-icon-png-8.jpg'
     // }
-    {
+    //{
     //   type: cardType.func,
     //   name: '+1 for all ATK cards',
     //   id: 2,
