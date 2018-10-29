@@ -1,8 +1,10 @@
 const io = require('socket.io')
-const cardList = require('./assets/cards')
+const cardList = require('./assets/cardList')
 const cardType = require('./assets/cardType')
 const uitls = require('./methods/utils')
 const connection = require('./methods/conection')
+const cardsMethods = require('./methods/cards')
+
 const port = process.env.PORT || 3000
 const server = io.listen(port)
 
@@ -22,6 +24,6 @@ server.on('connection', (socket) => {
   })
 
   socket.on('cardSelect', (socket) => {
-   // io.to(player1).emit('event', 'data')
+    // io.to(player1).emit('event', 'data')
   })
 })
