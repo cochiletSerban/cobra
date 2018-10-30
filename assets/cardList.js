@@ -27,7 +27,7 @@ module.exports = {
       name: 'Neymar',
       atack: 9,
       defence: 2,
-      nationality: 'Brazil',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/54.png',
       team: 'Paris Saint-Germain',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/190871.png'
@@ -47,7 +47,7 @@ module.exports = {
       name: 'De Bruyne',
       atack: 8,
       defence: 6,
-      nationality: 'Belgium',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
       team: 'Manchester City',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/192985.png'
@@ -57,7 +57,7 @@ module.exports = {
       name: 'Ramos',
       atack: 5,
       defence: 9,
-      nationality: 'Spain',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
       team: 'Real Madrid',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/155862.png'
@@ -67,7 +67,7 @@ module.exports = {
       name: 'Modric',
       atack: 8,
       defence: 6,
-      nationality: 'Croatia',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/10.png',
       team: 'Real Madrid',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/177003.png'
@@ -77,7 +77,7 @@ module.exports = {
       name: 'Hazard',
       atack: 9,
       defence: 3,
-      nationality: 'Belgium',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
       team: 'Chelsea',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/p50514925.png'
@@ -87,7 +87,7 @@ module.exports = {
       name: 'De Gea',
       atack: 1,
       defence: 9,
-      nationality: 'Spain',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
       team: 'Manchester United',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/193080.png'
@@ -97,7 +97,7 @@ module.exports = {
       name: 'Kroos',
       atack: 7,
       defence: 7,
-      nationality: 'Germany',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
       team: 'Real Madrid',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/182521.png'
@@ -117,7 +117,7 @@ module.exports = {
       name: 'Silva',
       atack: 7,
       defence: 5,
-      nationality: 'Spain',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
       team: 'Manchester City',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/168542.png'
@@ -127,7 +127,7 @@ module.exports = {
       name: 'Isco',
       atack: 8,
       defence: 6,
-      nationality: 'Spain',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
       team: 'Real Madrid',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/197781.png'
@@ -137,7 +137,7 @@ module.exports = {
       name: 'Pogba',
       atack: 8,
       defence: 7,
-      nationality: 'France',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
       team: 'Manchester United',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/195864.png'
@@ -147,7 +147,7 @@ module.exports = {
       name: 'Kanté',
       atack: 7,
       defence: 8,
-      nationality: 'France',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
       team: 'Chelsea',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/215914.png'
@@ -157,7 +157,7 @@ module.exports = {
       name: 'Rodríguez',
       atack: 8,
       defence: 5,
-      nationality: 'Colombia',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/56.png',
       team: 'Bayern München',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/198710.png'
@@ -167,7 +167,7 @@ module.exports = {
       name: 'Casemiro',
       atack: 6,
       defence: 8,
-      nationality: 'Brazil',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/54.png',
       team: 'Real Madrid',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/200145.png'
@@ -177,7 +177,7 @@ module.exports = {
       name: 'Hamšik',
       atack: 7,
       defence: 7,
-      nationality: 'Slovakia',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/43.png',
       team: 'Napoli',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/171877.png'
@@ -187,17 +187,7 @@ module.exports = {
       name: 'Rakitic',
       atack: 7,
       defence: 7,
-      nationality: 'Croatia',
-      team: 'Barcelona',
-      role: 2,
-      picture: 'https://cdn.futbin.com/content/fifa19/img/players/168651.png'
-    },
-    {
-      type: cardType.player,
-      name: 'Rakitic',
-      atack: 7,
-      defence: 7,
-      nationality: 'Croatia',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/10.png',
       team: 'Barcelona',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/168651.png'
@@ -207,7 +197,7 @@ module.exports = {
       name: 'Mbappe',
       atack: 9,
       defence: 4,
-      nationality: 'France',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
       team: 'Paris Saint-Germain',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/p67340611.png'
@@ -217,7 +207,7 @@ module.exports = {
       name: 'Reus',
       atack: 8,
       defence: 5,
-      nationality: 'Germany',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
       team: 'Borussia Dortmund',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/p84074430.png'
@@ -227,7 +217,7 @@ module.exports = {
       name: 'Pjanic',
       atack: 7,
       defence: 7,
-      nationality: 'Bosnia',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/8.png',
       team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/180206.png'
@@ -237,7 +227,7 @@ module.exports = {
       name: 'Matic',
       atack: 7,
       defence: 8,
-      nationality: 'Serbia',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/51.png',
       team: 'Manchester United',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/191202.png'
@@ -247,7 +237,7 @@ module.exports = {
       name: 'Neuer',
       atack: 2,
       defence: 9,
-      nationality: 'Germany',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
       team: 'Bayern München',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/167495.png'
@@ -257,7 +247,7 @@ module.exports = {
       name: 'Courtois',
       atack: 1,
       defence: 9,
-      nationality: 'Belgium',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
       team: 'Real Madrid',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/192119.png'
@@ -267,7 +257,7 @@ module.exports = {
       name: 'Navas',
       atack: 1,
       defence: 8,
-      nationality: 'Costa Rica',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/72.png',
       team: 'Real Madrid',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/193041.png'
@@ -277,7 +267,7 @@ module.exports = {
       name: 'Cech',
       atack: 1,
       defence: 9,
-      nationality: 'Czech R',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/12.png',
       team: 'Arsenal',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/p50380588.png'
@@ -287,7 +277,7 @@ module.exports = {
       name: 'Lewandowski',
       atack: 9,
       defence: 4,
-      nationality: 'Poland',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/37.png',
       team: 'Bayern München',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/188545.png'
@@ -307,7 +297,7 @@ module.exports = {
       name: 'Kane',
       atack: 9,
       defence: 4,
-      nationality: 'England',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/14.png',
       team: 'Tottenham Hotspur',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/202126.png'
@@ -317,7 +307,7 @@ module.exports = {
       name: 'Cavani',
       atack: 8,
       defence: 5,
-      nationality: 'Uruguay',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/60.png',
       team: 'Paris Saint-Germain',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/179813.png'
@@ -327,7 +317,7 @@ module.exports = {
       name: 'Griezmann',
       atack: 8,
       defence: 5,
-      nationality: 'France',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
       team: 'Atlético Madrid',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/194765.png'
@@ -337,7 +327,7 @@ module.exports = {
       name: 'Verratti',
       atack: 6,
       defence: 8,
-      nationality: 'Italy',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/27.png',
       team: 'Paris Saint-Germain',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/199556.png'
@@ -347,7 +337,7 @@ module.exports = {
       name: 'Perišic',
       atack: 8,
       defence: 6,
-      nationality: 'Croatia',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/10.png',
       team: 'Inter',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/181458.png'
@@ -357,7 +347,7 @@ module.exports = {
       name: 'Vidal',
       atack: 8,
       defence: 8,
-      nationality: 'Chile',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/55.png',
       team: 'Barcelona',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/181872.png'
@@ -367,7 +357,7 @@ module.exports = {
       name: 'Godín',
       atack: 4,
       defence: 9,
-      nationality: 'Uruguay',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/60.png',
       team: 'Atlético Madrid',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/182493.png'
@@ -377,7 +367,7 @@ module.exports = {
       name: 'Chiellini',
       atack: 4,
       defence: 9,
-      nationality: 'Italy',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/27.png',
       team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/138956.png'
@@ -387,7 +377,7 @@ module.exports = {
       name: 'Hummels',
       atack: 5,
       defence: 9,
-      nationality: 'Germany',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
       team: 'Bayern München',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/178603.png'
@@ -397,7 +387,7 @@ module.exports = {
       name: 'Marcelo',
       atack: 7,
       defence: 8,
-      nationality: 'Brazil',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/54.png',
       team: 'Real Madrid',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/176676.png'
@@ -407,7 +397,7 @@ module.exports = {
       name: 'Silva',
       atack: 5,
       defence: 8,
-      nationality: 'Brazil',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/54.png',
       team: 'Paris Saint-Germain',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/164240.png'
@@ -417,7 +407,7 @@ module.exports = {
       name: 'Piqué ',
       atack: 5,
       defence: 8,
-      nationality: 'Spain',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
       team: 'Barcelona',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/152729.png'
@@ -427,7 +417,7 @@ module.exports = {
       name: 'Umtiti',
       atack: 5,
       defence: 8,
-      nationality: 'France',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
       team: 'Barcelona',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/205600.png'
@@ -437,7 +427,7 @@ module.exports = {
       name: 'Vertonghen',
       atack: 6,
       defence: 8,
-      nationality: 'Belgium',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
       team: 'Tottenham Hotspur',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/172871.png'
@@ -447,7 +437,7 @@ module.exports = {
       name: 'Koulibaly',
       atack: 2,
       defence: 8,
-      nationality: 'Senegal',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/136.png',
       team: 'Napoli',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/201024.png'
@@ -457,7 +447,7 @@ module.exports = {
       name: 'Benatia',
       atack: 4,
       defence: 8,
-      nationality: 'Morocco',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/129.png',
       team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/177509.png'
@@ -477,7 +467,7 @@ module.exports = {
       name: 'Boateng',
       atack: 5,
       defence: 8,
-      nationality: 'Germany',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
       team: 'Bayern München',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/183907.png	'
@@ -487,7 +477,7 @@ module.exports = {
       name: 'Varane',
       atack: 4,
       defence: 8,
-      nationality: 'France',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
       team: 'Real Madrid',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/201535.png'
@@ -497,7 +487,7 @@ module.exports = {
       name: 'Kompany',
       atack: 5,
       defence: 8,
-      nationality: 'Belgium',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
       team: 'Manchester City',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/139720.png'
@@ -507,7 +497,7 @@ module.exports = {
       name: 'Alaba',
       atack: 7,
       defence: 8,
-      nationality: 'Austria',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/4.png',
       team: 'Bayern München',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/197445.png'
@@ -517,7 +507,7 @@ module.exports = {
       name: 'Kimmich',
       atack: 6,
       defence: 7,
-      nationality: 'Germany',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
       team: 'Bayern München',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/212622.png'
@@ -527,7 +517,7 @@ module.exports = {
       name: 'van Dijk',
       atack: 4,
       defence: 8,
-      nationality: 'Holland',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/34.png',
       team: 'Liverpool',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/203376.png'
@@ -537,7 +527,7 @@ module.exports = {
       name: 'Manolas',
       atack: 1,
       defence: 9,
-      nationality: 'Greece',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/22.png',
       team: 'Roma',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/192774.png'
@@ -547,7 +537,7 @@ module.exports = {
       name: 'Barzagli',
       atack: 3,
       defence: 9,
-      nationality: 'Italy',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/27.png',
       team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/137186.png'
@@ -557,7 +547,7 @@ module.exports = {
       name: 'Süle',
       atack: 4,
       defence: 8,
-      nationality: 'Germany',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
       team: 'Bayern München',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/212190.png'
@@ -576,7 +566,7 @@ module.exports = {
     //   name: 'van Basten',
     //   passive: '', // leave blank
     //   active: '', // leave blank
-    //   nationality: 'Holland',
+    //   nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/34.png',
     //   team: '',
     //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/192181.png'
     // },
@@ -585,7 +575,7 @@ module.exports = {
     //   name: 'Blanc',
     //   passive: '', // leave blank
     //   active: '', // leave blank
-    //   nationality: 'France',
+    //   nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
     //   team: '',
     //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/238443.png'
     // },
@@ -594,7 +584,7 @@ module.exports = {
     //   name: 'Shevchenko',
     //   passive: '', // leave blank
     //   active: '', // leave blank
-    //   nationality: 'Ucraina',
+    //   nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/49.png',
     //   team: '',
     //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/13128.png'
     // },
@@ -603,7 +593,7 @@ module.exports = {
     //   name: 'Nedved',
     //   passive: '', // leave blank
     //   active: '', // leave blank
-    //   nationality: 'Czech Republic',
+    //   nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/12.png',
     //   team: '',
     //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/6235.png'
     // }{
