@@ -518,7 +518,7 @@ module.exports = {
       atack: 4,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/34.png',
-      team: 'Liverpool',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/9.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/203376.png'
     },
@@ -528,7 +528,7 @@ module.exports = {
       atack: 1,
       defence: 9,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/22.png',
-      team: 'Roma',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/52.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/192774.png'
     },
