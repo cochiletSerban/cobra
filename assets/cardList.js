@@ -7,7 +7,7 @@ module.exports = {
       name: 'Lionel Messi',
       atack: 9,
       defence: 2,
-      nationality: 'Argentina',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
       team: 'Barcelona',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/158023.png'
@@ -17,8 +17,8 @@ module.exports = {
       name: 'Ronaldo',
       atack: 9,
       defence: 3,
-      nationality: 'Portugal',
-      team: 'Juventus',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/38.png',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/20801.png'
     },
@@ -37,7 +37,7 @@ module.exports = {
       name: 'Suárez',
       atack: 9,
       defence: 2,
-      nationality: 'Argentina',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
       team: 'Barcelona',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/176580.png'
@@ -107,8 +107,8 @@ module.exports = {
       name: 'Dybala',
       atack: 9,
       defence: 3,
-      nationality: 'Argentina',
-      team: 'Juventus',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/211110.png'
     },
@@ -228,7 +228,7 @@ module.exports = {
       atack: 7,
       defence: 7,
       nationality: 'Bosnia',
-      team: 'Juventus',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/180206.png'
     },
@@ -297,7 +297,7 @@ module.exports = {
       name: 'Agüero',
       atack: 9,
       defence: 2,
-      nationality: 'Argentina',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
       team: 'Manchester City',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/153079.png'
@@ -378,7 +378,7 @@ module.exports = {
       atack: 4,
       defence: 9,
       nationality: 'Italy',
-      team: 'Juventus',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/138956.png'
     },
@@ -458,7 +458,7 @@ module.exports = {
       atack: 4,
       defence: 8,
       nationality: 'Morocco',
-      team: 'Juventus',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/177509.png'
     },
@@ -467,7 +467,7 @@ module.exports = {
       name: 'Otamendi',
       atack: 5,
       defence: 8,
-      nationality: 'Argentina',
+      nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
       team: 'Manchester City',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/192366.png'
@@ -548,7 +548,7 @@ module.exports = {
       atack: 3,
       defence: 9,
       nationality: 'Italy',
-      team: 'Juventus',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/45.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/137186.png'
     },
@@ -567,7 +567,7 @@ module.exports = {
     //   name: 'Maradona',
     //   passive: '', // leave blank
     //   active: '', // leave blank
-    //   nationality: 'Argentina',
+    //   nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
     //   team: '',
     //   picture: 'https://cdn.futbin.com/content/fifa19/img/players/190042.png'
     // },
