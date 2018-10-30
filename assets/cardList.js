@@ -4,7 +4,7 @@ module.exports = {
   card: [ // card list
     { // card object structure for player card
       type: cardType.player,
-      name: 'Lionel Messi',
+      name: 'Messi',
       atack: 9,
       defence: 2,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
