@@ -8,7 +8,7 @@ module.exports = {
       atack: 9,
       defence: 2,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
-      team: 'Barcelona',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/241.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/158023.png'
     },
@@ -28,7 +28,7 @@ module.exports = {
       atack: 9,
       defence: 2,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/54.png',
-      team: 'Paris Saint-Germain',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/73.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/190871.png'
     },
@@ -38,7 +38,7 @@ module.exports = {
       atack: 9,
       defence: 2,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
-      team: 'Barcelona',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/241.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/176580.png'
     },
@@ -48,7 +48,7 @@ module.exports = {
       atack: 8,
       defence: 6,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
-      team: 'Manchester City',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/10.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/192985.png'
     },
@@ -58,7 +58,7 @@ module.exports = {
       atack: 5,
       defence: 9,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
-      team: 'Real Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/243.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/155862.png'
     },
@@ -68,7 +68,7 @@ module.exports = {
       atack: 8,
       defence: 6,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/10.png',
-      team: 'Real Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/243.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/177003.png'
     },
@@ -78,7 +78,7 @@ module.exports = {
       atack: 9,
       defence: 3,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
-      team: 'Chelsea',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/5.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/p50514925.png'
     },
@@ -88,7 +88,7 @@ module.exports = {
       atack: 1,
       defence: 9,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
-      team: 'Manchester United',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/11.png',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/193080.png'
     },
@@ -98,7 +98,7 @@ module.exports = {
       atack: 7,
       defence: 7,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
-      team: 'Real Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/243.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/182521.png'
     },
@@ -118,7 +118,7 @@ module.exports = {
       atack: 7,
       defence: 5,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
-      team: 'Manchester City',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/10.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/168542.png'
     },
@@ -128,7 +128,7 @@ module.exports = {
       atack: 8,
       defence: 6,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
-      team: 'Real Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/243.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/197781.png'
     },
@@ -138,7 +138,7 @@ module.exports = {
       atack: 8,
       defence: 7,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
-      team: 'Manchester United',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/11.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/195864.png'
     },
@@ -148,7 +148,7 @@ module.exports = {
       atack: 7,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
-      team: 'Chelsea',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/5.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/215914.png'
     },
@@ -158,7 +158,7 @@ module.exports = {
       atack: 8,
       defence: 5,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/56.png',
-      team: 'Bayern München',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/21.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/198710.png'
     },
@@ -168,7 +168,7 @@ module.exports = {
       atack: 6,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/54.png',
-      team: 'Real Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/243.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/200145.png'
     },
@@ -178,7 +178,7 @@ module.exports = {
       atack: 7,
       defence: 7,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/43.png',
-      team: 'Napoli',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/48.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/171877.png'
     },
@@ -188,7 +188,7 @@ module.exports = {
       atack: 7,
       defence: 7,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/10.png',
-      team: 'Barcelona',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/241.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/168651.png'
     },
@@ -198,7 +198,7 @@ module.exports = {
       atack: 9,
       defence: 4,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
-      team: 'Paris Saint-Germain',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/73.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/p67340611.png'
     },
@@ -208,7 +208,7 @@ module.exports = {
       atack: 8,
       defence: 5,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
-      team: 'Borussia Dortmund',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/22.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/p84074430.png'
     },
@@ -228,7 +228,7 @@ module.exports = {
       atack: 7,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/51.png',
-      team: 'Manchester United',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/11.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/191202.png'
     },
@@ -238,7 +238,7 @@ module.exports = {
       atack: 2,
       defence: 9,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
-      team: 'Bayern München',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/21.png',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/167495.png'
     },
@@ -248,7 +248,7 @@ module.exports = {
       atack: 1,
       defence: 9,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
-      team: 'Real Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/243.png',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/192119.png'
     },
@@ -258,7 +258,7 @@ module.exports = {
       atack: 1,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/72.png',
-      team: 'Real Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/243.png',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/193041.png'
     },
@@ -268,7 +268,7 @@ module.exports = {
       atack: 1,
       defence: 9,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/12.png',
-      team: 'Arsenal',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/1.png',
       role: 0,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/p50380588.png'
     },
@@ -278,7 +278,7 @@ module.exports = {
       atack: 9,
       defence: 4,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/37.png',
-      team: 'Bayern München',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/21.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/188545.png'
     },
@@ -288,7 +288,7 @@ module.exports = {
       atack: 9,
       defence: 2,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
-      team: 'Manchester City',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/10.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/153079.png'
     },
@@ -298,7 +298,7 @@ module.exports = {
       atack: 9,
       defence: 4,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/14.png',
-      team: 'Tottenham Hotspur',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/18.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/202126.png'
     },
@@ -308,7 +308,7 @@ module.exports = {
       atack: 8,
       defence: 5,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/60.png',
-      team: 'Paris Saint-Germain',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/73.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/179813.png'
     },
@@ -318,7 +318,7 @@ module.exports = {
       atack: 8,
       defence: 5,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
-      team: 'Atlético Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/240.png',
       role: 3,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/194765.png'
     },
@@ -328,7 +328,7 @@ module.exports = {
       atack: 6,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/27.png',
-      team: 'Paris Saint-Germain',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/73.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/199556.png'
     },
@@ -338,7 +338,7 @@ module.exports = {
       atack: 8,
       defence: 6,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/10.png',
-      team: 'Inter',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/44.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/181458.png'
     },
@@ -348,7 +348,7 @@ module.exports = {
       atack: 8,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/55.png',
-      team: 'Barcelona',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/241.png',
       role: 2,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/181872.png'
     },
@@ -358,7 +358,7 @@ module.exports = {
       atack: 4,
       defence: 9,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/60.png',
-      team: 'Atlético Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/240.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/182493.png'
     },
@@ -378,7 +378,7 @@ module.exports = {
       atack: 5,
       defence: 9,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
-      team: 'Bayern München',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/21.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/178603.png'
     },
@@ -388,7 +388,7 @@ module.exports = {
       atack: 7,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/54.png',
-      team: 'Real Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/243.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/176676.png'
     },
@@ -398,7 +398,7 @@ module.exports = {
       atack: 5,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/54.png',
-      team: 'Paris Saint-Germain',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/73.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/164240.png'
     },
@@ -408,7 +408,7 @@ module.exports = {
       atack: 5,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/45.png',
-      team: 'Barcelona',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/241.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/152729.png'
     },
@@ -418,7 +418,7 @@ module.exports = {
       atack: 5,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
-      team: 'Barcelona',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/241.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/205600.png'
     },
@@ -428,7 +428,7 @@ module.exports = {
       atack: 6,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
-      team: 'Tottenham Hotspur',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/18.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/172871.png'
     },
@@ -438,7 +438,7 @@ module.exports = {
       atack: 2,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/136.png',
-      team: 'Napoli',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/48.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/201024.png'
     },
@@ -458,7 +458,7 @@ module.exports = {
       atack: 5,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/52.png',
-      team: 'Manchester City',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/10.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/192366.png'
     },
@@ -468,7 +468,7 @@ module.exports = {
       atack: 5,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
-      team: 'Bayern München',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/21.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/183907.png	'
     },
@@ -478,7 +478,7 @@ module.exports = {
       atack: 4,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/18.png',
-      team: 'Real Madrid',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/243.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/201535.png'
     },
@@ -488,7 +488,7 @@ module.exports = {
       atack: 5,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/7.png',
-      team: 'Manchester City',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/10.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/139720.png'
     },
@@ -498,7 +498,7 @@ module.exports = {
       atack: 7,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/4.png',
-      team: 'Bayern München',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/21.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/197445.png'
     },
@@ -508,7 +508,7 @@ module.exports = {
       atack: 6,
       defence: 7,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
-      team: 'Bayern München',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/21.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/212622.png'
     },
@@ -548,7 +548,7 @@ module.exports = {
       atack: 4,
       defence: 8,
       nationality: 'https://cdn.futbin.com/content/fifa19/img/nation/21.png',
-      team: 'Bayern München',
+      team: 'https://cdn.futbin.com/content/fifa19/img/clubs/21.png',
       role: 1,
       picture: 'https://cdn.futbin.com/content/fifa19/img/players/212190.png'
     }
