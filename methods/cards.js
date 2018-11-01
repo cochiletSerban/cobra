@@ -10,12 +10,11 @@ let getRandomNumberOfCards = function getRandomNumberOfCards (cardList, cardType
     randomCardIndex = utils.getRandomNrInRange(0, remainingCards.length)
     randomCard = remainingCards[randomCardIndex]
 
-    if (!selectedCards.includes(randomCard)) {
+    if (!selectedCards.includes(randomCard) && randomCard !== undefined) {
       selectedCards.push(randomCard)
       remainingCards = remainingCards.filter(e => e !== randomCard)
     }
   }
-
   return { selectedCards, remainingCards }
 }
 
