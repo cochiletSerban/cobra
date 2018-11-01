@@ -3,7 +3,8 @@ const cardType = require('./cardType')
 module.exports = {
     board : { 
         player1: {
-            playerName: "player 1",
+            playerName: 'player 1',
+            playerId: '1',
             actualCards: [
                 { // card object structure for player card
                     type: cardType.player,
@@ -122,7 +123,8 @@ module.exports = {
         },
 
         player2: {
-            playerName: "player 1",
+            playerName: 'player 2',
+            playerId: '2',
             actualCards: [
                 { // card object structure for player card
                     type: cardType.player,

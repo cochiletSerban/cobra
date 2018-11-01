@@ -29,11 +29,8 @@ server.on('connection', (socket) => {
   })
 })
 
-FunctionalCard3(board.board, '1')
-FunctionalCard4(board.board, '1')
-
 function FunctionalCard1(board, playerId){
-  var player = board.player1;
+  var player = board.player1.playerId == playerId ? board.player1 : board.player2;
   for(i = 0; i < player.boardCards.length; i++){
     if(player.boardCards[i].type == cardType.player){
       player.boardCards[i].atack++;
@@ -41,8 +38,8 @@ function FunctionalCard1(board, playerId){
   }
 }
 
-function FunctionalCard2(board, key){
-  var player = board.player1;
+function FunctionalCard2(board, playerId){
+  var player = board.player1.playerId == playerId ? board.player1 : board.player2;
   for(i = 0; i < player.boardCards.length; i++){
     if(player.boardCards[i].type == cardType.player){
       player.boardCards[i].defence++;
@@ -50,8 +47,8 @@ function FunctionalCard2(board, key){
   }
 }
 
-function FunctionalCard3(board, key){
-  var player = board.player1;
+function FunctionalCard3(board, playerId){
+  var player = board.player1.playerId == playerId ? board.player1 : board.player2;
   for(i = 0; i < player.boardCards.length; i++){
     if(player.boardCards[i].type == cardType.player){
       player.boardCards[i].atack += 2;
@@ -59,36 +56,56 @@ function FunctionalCard3(board, key){
   }
 }
 
-function FunctionalCard4(board, key){
-  var player = board.player1;
+function FunctionalCard4(board, playerId){
+  var player = board.player1.playerId == playerId ? board.player1 : board.player2;
   for(i = 0; i < player.boardCards.length; i++){
     if(player.boardCards[i].type == cardType.player){
       player.boardCards[i].defence += 2;
     }
   }
 }
-
-console.log(getRandomCardIndex(10))
-console.log(getRandomCardIndex(10))
-console.log(getRandomCardIndex(10))
 
 function getRandomCardIndex(max){
-  return Math.random() % max
+  return Math.floor(Math.random() * 10000) % max
 }
 
-
-
-
-function FunctionalCard5(board, key){
-  var player = board.player1;
-  for(i = 0; i < player.boardCards.length; i++){
-    if(player.boardCards[i].type == cardType.player){
-      player.boardCards[i].defence += 2;
-    }
-  }
+function FunctionalCard5(board, playerId){
+  var player = board.player1.playerId == playerId ? board.player1 : board.player2;
+  var i = getRandomCardIndex(player.boardCards.length);
+  player.boardCards[i].atack += 3;
 }
 
-var player = board.board.player1
-for(i = 0; i < player.boardCards.length; i++){
-  console.log(player.boardCards[i].defence)
+function FunctionalCard6(board, playerId){
+  var player = board.player1.playerId == playerId ? board.player1 : board.player2;
+  var i = getRandomCardIndex(player.boardCards.length);
+  player.boardCards[i].defence += 3;
+}
+
+function FunctionalCard7(board, playerId){
+  var player = board.player1.playerId == playerId ? board.player2 : board.player1;
+  var i = getRandomCardIndex(player.boardCards.length);
+  player.boardCards[i].atack = 0;
+}
+
+function FunctionalCard8(board, playerId){
+  var player = board.player1.playerId == playerId ? board.player2 : board.player1;
+  var i = getRandomCardIndex(player.boardCards.length);
+  player.boardCards[i].defence = 0;
+}
+
+function FunctionalCard9(board, playerId){
+  var player = board.player1.playerId == playerId ? board.player2 : board.player1;
+  var i = getRandomCardIndex(player.boardCards.length);
+  player.boardCards[i].defence = 0;
+  player.boardCards[i].atack = 0;
+}
+
+function FunctionalCard10(board, playerId){
+  var player = board.player1.playerId == playerId ? board.player1 : board.player2;
+  var player2 =board.player1.playerId == playerId ? board.player2 : board.player1;
+  if (player2.actualCards.length > 0) {
+    var i = getRandomCardIndex(player2.actualCards.length);
+    player.actualCards.push(player2.actualCards[i]);
+    player2.actualCards.splice(i, 1);
+  } 
 }
