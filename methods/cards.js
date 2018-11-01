@@ -15,6 +15,7 @@ let getRandomNumberOfCards = function getRandomNumberOfCards (cardList, cardType
       remainingCards = remainingCards.filter(e => e !== randomCard)
     }
   }
+  remainingCards = cardList.filter((el) => !selectedCards.includes(el))
   return { selectedCards, remainingCards }
 }
 
