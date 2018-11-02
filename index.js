@@ -76,7 +76,7 @@ server.on('connection', (socket) => {
     if (players[socket.id].cardsInHand.length !== 17) {
       players[socket.id].cardsInHand.push(...selectedCards)
       console.log("player: " + players[socket.id].name + ' has ' + players[socket.id].cardsInHand.length + ' cards')
-      socket.emit('serverGotCards', getCurrentStageOfPlayer(socket.id))
+      if (players[socket.id].cardsInHand.length !== 17) socket.emit('serverGotCards', getCurrentStageOfPlayer(socket.id))
     }
     if (players[socket.id].cardsInHand.length === 17) {
       server.to(socket.id).emit('waitForPlayersToSelect')
@@ -87,8 +87,8 @@ server.on('connection', (socket) => {
     }
   })
 
-  // socket.on('disconnect', () => {
-  //   console.log(players[socket.id].name + ' has left the game')
-  //   connection.tearDownGame(socket, players, server)
-  // })
+  socket.on('disconnect', (reason) => {
+    console.log('one client dissconnected : ' + reason)
+    connection.tearDownGame(socket, players, server)
+  })
 })
