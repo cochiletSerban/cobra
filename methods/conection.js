@@ -52,13 +52,13 @@ let sendCardsToClients = function sendCardsToClients (socket, server, cardList, 
       break
 
     case 2:
-      stage.randomCards = cardsMethods.getRandomNumberOfCards(cardList, cardType.player, 10).selectedCards
+      stage.randomCards = cardsMethods.getRandomNumberOfCards(cardList, cardType.func, 10).selectedCards
       stage.stageNumber = 5
       server.to(socket.id).emit('reciveCards', stage)
       break
 
     case 3:
-      stage.randomCards = cardsMethods.getRandomNumberOfCards(cardList, cardType.player, 3).selectedCards
+      stage.randomCards = cardsMethods.getRandomNumberOfCards(cardList, cardType.coach, 3).selectedCards
       stage.stageNumber = 1
       server.to(socket.id).emit('reciveCards', stage)
       break
