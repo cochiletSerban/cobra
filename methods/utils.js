@@ -7,7 +7,12 @@ let getTheOtherPlayer = function getTheOtherPlayer (players, playerId) {
   return players[Object.keys(players)[0]]
 }
 
+let yolo = function yolo() {
+  console.log("yolo")
+}
+
 module.exports = {
   getRandomNrInRange: getRandomNrInRange,
-  getTheOtherPlayer: getTheOtherPlayer
+  getTheOtherPlayer: getTheOtherPlayer,
+  yolo: yolo
 }
