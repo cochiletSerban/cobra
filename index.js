@@ -3,6 +3,7 @@ const cardList = require('./assets/cardList').card
 const connection = require('./methods/conection')
 
 const playerMethods = require('./methods/players')
+const boardMethods = require('./methods/board')
 const port = process.env.PORT || 3000
 const server = io.listen(port)
 let players = null
@@ -28,5 +29,6 @@ server.on('connection', (socket) => {
   console.log('connection severed on socket:', socket.id + ' ' + server.engine.clientsCount)
   prepareLobby(socket)
   cardSelection(socket)
+  //boardMethods.populateBoard(socket, server, players)
   connection.disconnect(socket, players, server)
 })
