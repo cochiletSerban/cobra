@@ -8,13 +8,21 @@ let buildPlayers = function buildPlayers (server) {
   players[Object.keys(server.sockets.sockets)[0]] = {
     name: 'player1',
     cardsInHand: [],
-    bord: []
+    bord: {
+      first: [],
+      mid: [],
+      last: []
+    }
   }
 
   players[Object.keys(server.sockets.sockets)[1]] = {
     name: 'player2',
     cardsInHand: [],
-    bord: []
+    bord: {
+      first: [],
+      mid: [],
+      last: []
+    }
   }
   return players
 }
