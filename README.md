@@ -2,7 +2,7 @@
 
   - Cel mai jmecher card game
   - the app will run locally on port 3000
-  - production version is avaible at cobra.tk
+  - production version is avaible at [cobra.tk](https://cobra.tk)
   - you should have nodejs intalled to be able to run the app locally; tutorial: https://blog.teamtreehouse.com/install-node-js-npm-windows
 
 ### How to run the app
